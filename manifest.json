@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"JQQ YT LINKS",
+    "description":"Show YT links from the JQQ website",
+    "version":"1.0.0",
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+
+    "permissions":[]
+}
