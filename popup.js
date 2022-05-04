@@ -1,9 +1,11 @@
 
 document.addEventListener('DOMContentLoaded',async ()=>{
     const linkslist = document.getElementById('linkslist');
+    // fake api
     const url = 'https://jqq-utils.netlify.app/api/recentYTVideos';
+    
+    
     // text copy funtions
-
     const copyLinks = (e) => {
         const str = e.target.dataset.url;
         alert(str);
@@ -27,7 +29,7 @@ document.addEventListener('DOMContentLoaded',async ()=>{
                 <a class="btn" href="${videoUrl}"  rel="noopener noreferrer" target="_blank">
                 Watch
                 </a>
-                ${video.title}
+                <p class="cut-text">${video.title}</p>
                 </li>
             `;
         }).join('');

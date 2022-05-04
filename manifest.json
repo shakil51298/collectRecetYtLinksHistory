@@ -1,7 +1,7 @@
 {
     "manifest_version":2,
-    "name":"JQQ YT LINKS",
-    "description":"Show YT links from the JQQ website",
+    "name":"collectRecetYtLinksHistory",
+    "description":"it's my very first google chorome extension.which is able to collect your recent youtube browsing history and copy the youtube links simplest way just clicking on the copy button.",
     "version":"1.0.0",
     "browser_action":{
         "default_icon":"icon.png",

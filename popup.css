@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+}
+.cut-text { 
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px; 
+    height: 1.2em; 
+    white-space: nowrap;
+  }
+
+.video-link > a:visited,
+.video-link > a{
+    color: #333;
+    text-decoration: none;
+    color: rgb(82, 58, 10);
+}
+
+.btn{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #eee;
+    font-size: 12px;
+    box-shadow: 1px 1px 5px #ccc;
+    transition: 100ms;
+}
+.btn:hover{
+    transition: translateY(-1px);
+    box-shadow: 2px 2px 5px #ccc; 
+}
